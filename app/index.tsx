@@ -5,7 +5,7 @@ import { styles } from "./styles";
 const templatesData = [
   {
     Label: "Text Sections",
-    Path: "components/Text_Section/usage"
+    Path: "components/TextSection/usage"
   },
   {
     Label: "Card (Standalone)",
@@ -14,6 +14,10 @@ const templatesData = [
   {
     Label: "XText (Fully Customizable)",
     Path: "components/XText/usage"
+  },
+  {
+    Label: "Customizable Button",
+    Path: "components/CustomizableButton/usage"
   }
 ];
 
