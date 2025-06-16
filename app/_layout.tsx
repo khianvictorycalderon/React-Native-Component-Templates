@@ -6,6 +6,7 @@ export default function RootLayout() {
        <Stack.Screen name="index" options={{ title: "Choose Templates" }} />
        <Stack.Screen name="components/Text_Section/usage" options={{ title: "Text Section Usage" }} />
        <Stack.Screen name="components/Card/usage" options={{ title: "Card Usage" }} />
+       <Stack.Screen name="components/XText/usage" options={{ title: "XText Usage" }} />
     </Stack>
   );
 }

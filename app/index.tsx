@@ -10,6 +10,10 @@ const templatesData = [
   {
     Label: "Card (Standalone)",
     Path: "components/Card/usage"
+  },
+  {
+    Label: "XText (Fully Customizable)",
+    Path: "components/XText/usage"
   }
 ];
 
