@@ -6,6 +6,10 @@ const templatesData = [
   {
     Label: "Text Sections",
     Path: "components/Text_Section/usage"
+  },
+  {
+    Label: "Card (Standalone)",
+    Path: "components/Card/usage"
   }
 ];
 

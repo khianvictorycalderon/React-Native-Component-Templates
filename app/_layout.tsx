@@ -5,6 +5,7 @@ export default function RootLayout() {
     <Stack screenOptions={{ headerShown: true }}> {/* Decides whether to show or hide the title section */}
        <Stack.Screen name="index" options={{ title: "Choose Templates" }} />
        <Stack.Screen name="components/Text_Section/usage" options={{ title: "Text Section Usage" }} />
+       <Stack.Screen name="components/Card/usage" options={{ title: "Card Usage" }} />
     </Stack>
   );
 }
