@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "React-Native-Templates",
-    "slug": "React-Native-Templates",
+    "name": "React-Native-Components-Templates",
+    "slug": "React-Native-Components-Templates",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "reactnativetemplates",
+    "scheme": "reactnativecomponentstemplates",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
