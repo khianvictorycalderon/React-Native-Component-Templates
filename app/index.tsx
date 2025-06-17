@@ -8,6 +8,10 @@ const templatesData = [
     Path: "components/Card/usage"
   },
   {
+    Label: "Info Card (Set)",
+    Path: "components/InfoCard/usage"
+  },
+  {
     Label: "XText (Fully Customizable)",
     Path: "components/XText/usage"
   },
