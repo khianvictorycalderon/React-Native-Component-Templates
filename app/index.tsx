@@ -4,10 +4,6 @@ import { styles } from "./styles";
 
 const templatesData = [
   {
-    Label: "Text Sections",
-    Path: "components/TextSection/usage"
-  },
-  {
     Label: "Card (Standalone)",
     Path: "components/Card/usage"
   },
