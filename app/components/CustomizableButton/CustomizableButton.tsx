@@ -26,7 +26,7 @@ type ColorVariant = (typeof COLORS)[number];
 type AlignOption = "full" | "left" | "right" | "center";
 
 interface ButtonProps {
-  color: ColorVariant;
+  color?: ColorVariant;
   margin?: number;
   align?: AlignOption;
   children: React.ReactNode;
@@ -87,7 +87,7 @@ const generateStyles = () => {
 const styles = generateStyles();
 
 export default function Button({
-  color,
+  color = "amber",
   align = "full",
   children,
   margin,
