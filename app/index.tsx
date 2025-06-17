@@ -22,8 +22,7 @@ const templatesData = [
   {
     Label: "Background Image (Shortcut)",
     Path: "components/BackgroundImage/usage"
-  }
-  ,
+  },
   {
     Label: "Form Input",
     Path: "components/FormInput/usage"
