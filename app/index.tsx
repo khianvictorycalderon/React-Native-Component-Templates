@@ -18,6 +18,10 @@ const templatesData = [
   {
     Label: "Customizable Button",
     Path: "components/CustomizableButton/usage"
+  },
+  {
+    Label: "Background Image (Shortcut)",
+    Path: "components/BackgroundImage/usage"
   }
 ];
 
