@@ -9,6 +9,7 @@ export default function RootLayout() {
        <Stack.Screen name="components/XText/usage" options={{ title: "XText Usage" }} />
        <Stack.Screen name="components/CustomizableButton/usage" options={{ title: "Customizable Button Usage" }} />
        <Stack.Screen name="components/BackgroundImage/usage" options={{ title: "Background Image Usage" }} />
+       <Stack.Screen name="components/FormInput/usage" options={{ title: "Form Input Usage" }} />
     </Stack>
   );
 }
