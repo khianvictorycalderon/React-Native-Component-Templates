@@ -10,12 +10,12 @@ import {
 // === Customizable Part ===
 // You can freely edit the variants and their styles below
 //
-type Variant = 'header' | 'subheader' | 'body' | 'caption' | 'small';
+type Variant = 'header' | 'subheader' | 'default' | 'caption' | 'small';
 
 const variantStyles: Record<Variant, TextStyle> = {
+  default: { fontSize: 16 },
   header: { fontSize: 32, fontWeight: 'bold', fontFamily: "Segoe UI" },
   subheader: { fontSize: 24, fontWeight: '600' },
-  body: { fontSize: 16 },
   caption: { fontSize: 12, color: '#666' },
   small: { fontSize: 10, color: '#999' },
 };
@@ -38,14 +38,22 @@ const baseStyle: TextStyle = {
 };
 
 export default function XText({
-  variant = 'body',
+  variant = 'default',
   style,
   children,
   ...props
 }: XTextProps) {
+  let content: React.ReactNode = children;
+
+  if (typeof children === 'string') {
+    // Replace <br/> or <br> with newline
+    content = children.replace(/<br\s*\/?>/gi, '\n');
+  }
+
   return (
     <Text style={[baseStyle, variantStyles[variant], style]} {...props}>
-      {children}
+      {content}
     </Text>
   );
 }
+
